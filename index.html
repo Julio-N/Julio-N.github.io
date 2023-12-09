@@ -1,39 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
-    <link rel="stylesheet" href="website color and font.css" />
-  </head>
-  <body>
-        <div class="column-left">
-          <h1>
-            Hello, this is my first time writing for a blog post, but My name is Julio Nunez and this is my personal portfolio that does not have too much going for it right now, but hopefully will get more developed as I progress through my career.
-          </h1>
-          <p>
-            Projects:
-            <p>
-              I do not have any projects at the moment
-            </p>
-          </p>
-          <p>
-            Publications:
-            <p>
-              "The importance of deepfake technology" is a research paper I made to show the pros and cons of deepfake technology and how it came to became to be known as deepfake technology.
-        </p>
-        </p>
-      <p>
-        Technical Skills:
-        <p>
-          Python, C++, and Java
-      </p>
-    </p>
-    
-        </div>
-        <div class="column-right">
-        </div>
-      </div>
-    </section>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #3498db;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .nav-btn {
+      margin: 0 10px;
+      padding: 8px 16px;
+      font-size: 16px;
+      color: white;
+      background-color: #2980b9;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .nav-btn:hover {
+      background-color: #2c3e50;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #3498db;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <button class="nav-btn">Home</button>
+    <button class="nav-btn" onclick="location.href='blog.html'">Blog</button>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <main>
+    <!-- Your portfolio content goes here -->
+    <h2>About Me</h2>
+    <p>Hello, I'm [Your Name]. Welcome to my personal portfolio!</p>
+  </main>
+
+  <footer>
+    &copy; 2023 My Portfolio. All rights reserved.
+  </footer>
+
+</body>
 </html>
